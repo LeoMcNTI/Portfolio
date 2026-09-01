@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Leo's Portfolio</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <section id="header-text">
+                <h1>Leo's Portfolio</h1>
+                <p>Studying at NTI Gymnasiet Lund</p>
+                <p>TE4 - Web Development</p>
+                <nav aria-label="huvudmeny">
+                    <ul>
+                        <li><a href="#About">About me</a></li>
+                        <li><a href="#Projects">Projects</a></li>
+                        <li><a href="#Logbook">Logbook</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </section>
+            <section id="light-switch">
+                <button type="button" id="themeButton">
+                    <img src="./images/light-switch.png" alt="light switch" id="switch-img" onclick="this.classList.toggle('on')">
+                </button>
+            </section>
+            <section id="section-img">
+                <img src="./images/Pigeon.jpeg" alt="pigeon" class="pigeon">
+            </section>
+            
+        </header>
+        <section id="About">
+            <h2>About Me</h2>
+            <p>Hello! I'm Leo, a student at NTI Gymnasiet Lund studying Web Development.</p>
+            <p>On this site I will showcase my projects and share my journey.</p>
+            <p>My interests include programming, networking, gaming and art.</p>
+            <p>I decided to apply to T4 due to a drive to learn and further advance my skills.</p>
+            <p>My own goal is purely to become skilled enough to feel confident in my abilities.</p>
+            <p>I intend to use this site to document my progress to that goal.</p>
+        </section>
+        <section id="Projects">
+            <h2>My Projects</h2>
+            <p>Here are some projects I will work on:</p>
+            <article>
+                <h3>Project 1 - My first website of T4</h3>
+                <h4>Status: TBD / Tools: HTML, CSS, JS</h4>
+                <p>Future Description</p>
+            </article>
+            <article>
+                <h3>Project 2 - Another Website</h3>
+                <h4>Status: TBD / Tools: HTML, CSS, JS</h4>
+                <p>Future Description</p>
+            </article>
+        </section>
+        <section id="Logbook">
+            <h2>Logbook</h2>
+            <p>Here I will document my learning journey and progress.</p>
+            <article>
+                <h3>Logbook Entry 1: 2026-08-25</h3>
+                <p>Today I am working on my first portfolio. Specifically today I am working with Sematic HTML.</p>
+            </article>
+        </section>
+        <section id="Contact">
+            <h2>Contact</h2>
+            <p>
+                <a href="mailto:leomcclure07@gmail.com">leomcclure07@gmail.com</a>
+            </p>
+        </section>
+        <footer>
+            <p>&copy; 2026 Leo NTI</p>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
