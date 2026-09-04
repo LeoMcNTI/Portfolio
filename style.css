@@ -167,6 +167,7 @@ img {
     }
 }
 
+/* Didint work the way I wanted it to */
 @media (prefers-reduced-motion: reduce) {
     html {
         scroll-behavior: auto;
